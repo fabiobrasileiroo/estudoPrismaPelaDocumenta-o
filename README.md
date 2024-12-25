@@ -29,7 +29,7 @@ model CategoriesOnPosts {
 }
 ```
 
-Por boas práticas do prisma deve se usar a escrita a mais verbosa possivel pelo fato do prisma ja ser simplorio entre as relações
+Por boas práticas do prisma deve se usar há escrita a mais verbosa possivel pelo fato do prisma ja ser simplorio entre as relações
 
 o ideal ainda é prática a cima
 ex: implícito
