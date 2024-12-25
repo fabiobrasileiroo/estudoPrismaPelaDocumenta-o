@@ -53,4 +53,7 @@ como ficar visualmente:
 
 <img src="./prisma-erd(6).svg"/>
 
-dicas de leitura: https://pt.stackoverflow.com/questions/221018/%C3%89-realmente-necess%C3%A1rio-criar-uma-3%C2%AA-tabela-auxiliar-em-relacionamentos-n-n
+(site para criar gráficos)[https://prisma-erd.simonknott.de/]
+
+
+(dicas de leitura)[https://pt.stackoverflow.com/questions/221018/%C3%89-realmente-necess%C3%A1rio-criar-uma-3%C2%AA-tabela-auxiliar-em-relacionamentos-n-n]
