@@ -2,7 +2,7 @@
 
 Se for um relacionanemto `n:n` por boas práticas seria bom criar uma nova tabela para relacionamento
 
-ex:
+ex: explícito
 
 ``` prisma
 model Post {
@@ -29,4 +29,22 @@ model CategoriesOnPosts {
 }
 ```
 
+Por boas práticas do prisma deve se usar a escrita a mais verbosa possivel pelo fato do prisma ja ser simplorio entre as relações
+
+o ideal ainda é prática a cima
+ex: implícito
+
+``` prisma
+model Post {
+  id Int @id @default(autoincrement())
+  title String
+  categories Category[]
+}
+
+model Category {
+  id Int @id @default(autoincrement())
+  name String
+  posts Post[]
+}
+```
 dicas de leitura: https://pt.stackoverflow.com/questions/221018/%C3%89-realmente-necess%C3%A1rio-criar-uma-3%C2%AA-tabela-auxiliar-em-relacionamentos-n-n
