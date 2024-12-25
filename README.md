@@ -1,6 +1,6 @@
 # Dicas que aprendi
 
-Se for um relacionanemto n:n por boas práticas seria bom criar nova tabela para relacionamento
+Se for um relacionanemto n:n por boas práticas seria bom criar uma nova tabela para relacionamento
 
 ex:
 
